@@ -6,6 +6,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   font-size: 100%;
 }
 body{
+	background-color: #F8F8F8; 
 }
 .header{
 	background-color: #D32F2F;
@@ -37,16 +38,11 @@ label {
 input{
 	display: block;
 	margin: 0 auto 0 auto;
-
-}
-
-input[type=submit]{
-	background-color: #03A9F4;
-	color: #FFFFFF;
 	padding: 10px;
 	font-family: sans-serif;
 
 }
+
 
 input[type=text]{
 	width: 40px;
@@ -54,9 +50,29 @@ input[type=text]{
 	margin-bottom: 10px;
 }
 
-.other-buttons input{
+input[type=button]{
 	display: inline;
 	margin-top: 15px;
-	width: 100px;
+	width: 120px;
 	padding: 5px;
+	background-color: #03A9F4;
+	color: #FFFFFF;
+}
+
+h2{
+  display: block;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  color: #727272;
+  font-size: 15px; 
+}
+
+.loser{
+	background-color: #000000;
+}
+
+.winner{
+	background-image: url("background_stars.jpg");
+	
 }

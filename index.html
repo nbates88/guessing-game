@@ -9,20 +9,19 @@
 	<h1>Guess The Number!</h1>
 </div>
 <div class="main-content">
-	<form>
+	<form id="guesser">
 		<label for="question">What number am I thinking of?</label>
-		<input type="text" id="question" placeholder="1-100">
-		<label for="submit button"</label>	
-		<input type="submit" value="Submit Your Guess">
+		<input type="text" id="question" placeholder="0-100">
+		
+		<input type="button" id="submit_button" value="Submit Your Guess">
+	</form>		
 
-		<div class="other-buttons">
-			<form>
-				<input type="submit" label="hint" value="Get a Hint!">
-				<input type="submit" value="Let's Play Again!">
-			</form>
-		</div>
+	<input type="button" id="hint" value="Get a Hint!">
 
-	</form>	
+	<input type="button" id="new-game" value="Let's Play Again!">
+	<h2 id = "message"></h2>	
 </div>
+<script src="jquery-1.12.2.js"></script>
+<script src="guessingGame.js"></script>
 </body>
 </html>
